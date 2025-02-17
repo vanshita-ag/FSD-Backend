@@ -12,4 +12,4 @@ fs.writeFile("./data.txt","utf8",(err)=>{
 }
 console.log("before write");
 write("I am new data");
-console.log("after write")
+console.log("after write");
