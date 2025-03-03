@@ -3,7 +3,7 @@ const server = http.createServer((req, res)=>{
     res.writeHead(200, {'Content-Type' : 'text/html'});
     // res.end('Hello World')
     if(req.url === '/home'){
-        res.end(`<h1>Welcome to Home Page</h>`);
+        res.end(`<h1>Welcome to Home Page</h1>`);
     }
     else if(req.url === '/about'){
         res.end(`<h1>Welcome to About Page</h1>`);
